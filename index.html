@@ -10,9 +10,18 @@
   <h1 id="title">freeCodeCamp Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform</p>
   <form action="" id="survey-form"> 
-    <input type="text" id="Name">
-    <input type="email" id="email">
-    <input type="number" id="Number">
+    <label id="name-label">
+      Name
+      <input type="text" id="Name">
+    </label>
+    <label id="email-label">
+      Email
+      <input type="email" id="email">
+    </label>
+    <label id="number-label">
+      Age
+      <input type="number" id="Number" min="10" max="30">
+    </label>
   </form>
 </body>
 </html>
